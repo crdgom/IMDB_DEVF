@@ -1,0 +1,59 @@
+.popular-movies-item{
+    width: 180px;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5rem;
+    color: #f2f2f2;
+    position: relative;
+}
+
+.popular-movies-item-featured-container{
+    display: block;
+    position:absolute;
+    background-color: teal;
+    top: 0;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.popular-movies-item-featured{
+    color: #f2f2f2;
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-bottom:0rem;
+}
+
+.popular-movies-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.popular-movies-item-info{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.popular-movies-basic-info{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+
+.popular-movies-item-title{
+    color:#f2f2f2;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom:0.1rem;
+}
