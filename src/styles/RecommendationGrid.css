@@ -1,9 +1,9 @@
 .grid-content{
-    width: 50%;
-    height: 50%;
+    width: 90%;
     display: flex;
     flex-direction: column;
     padding: 1rem;
+    overflow: hidden;
 }
 
 .grid{
@@ -25,4 +25,10 @@
 .grid-item:hover{
     transform: scale(1.03);
     transition: 0.5s;
+    cursor: pointer;
+}
+
+.grid-item img{
+    width: 100%;
+    object-fit: fill;
 }

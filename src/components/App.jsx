@@ -1,4 +1,4 @@
-import HeroRecomendations from './HeroRecomendations'
+import HeroRecommendations from './HeroRecommendations'
 import Menu from './Menu'
 import PopularMovies from './PopularMovies'
 
@@ -8,14 +8,10 @@ function App () {
   return (
     <div className='App'>
       <Menu />
-      <HeroRecomendations
-        title='The Avengers'
-        year='2017'
-        category='Comedy'
-        time='1hr 55min'
-      />
+      <HeroRecommendations />
       <PopularMovies />
     </div>
+
   )
 }
 

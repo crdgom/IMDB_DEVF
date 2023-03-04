@@ -1,6 +1,5 @@
 .popular-movies-item{
     width: 180px;
-    height: 270px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -14,9 +13,9 @@
     display: block;
     position:absolute;
     background-color: teal;
-    top: 0;
+    top: -15px;
     padding: 5px;
-    border-radius: 5px;
+    border-radius: 5px; 
 }
 
 .popular-movies-item-featured{
